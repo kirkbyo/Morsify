@@ -17,14 +17,12 @@ Raspberry Pi’s is a small, cheap computer that is very powerful. It runs it’
 We aren’t going to cover how to setup the Pi in this article, but if your Pi isn’t already setup you can follow this [article by Life Hacker](http://lifehacker.com/5976912/a-beginners-guide-to-diying-with-the-raspberry-pi).
 
 ### Downloading the necessary packages
-For this project, we are going to need to download a package called `pyaudio`. This package allows us to play sounds on the Raspberry Pi. In order to download the package, we will be using `pip`. [Pip](https://en.wikipedia.org/wiki/Pip_(package_manager) is a package manager for Python, basically how it works other programmers publish there package on the platform which gives us access to download them and use it in are projects.
-
-In order to download the package you need to open the command line; the command line allows you to control every aspect of your computer without a user interface. The command line looks like:
+For this project, we are going to need to download a package called `pyaudio`. This package allows us to play sounds on the Raspberry Pi. In order to download the package you need to open the command line; the command line allows you to control every aspect of your computer without a user interface. The command line looks like:
 ![Raspberry Pi Command line Icon](http://i.imgur.com/CNfNT7z.png)
 
 Once you have the command line open, type the following command:
 ```
-sudo pip install pyaudio
+sudo apt-get install python-pyaudio
 ```
 If needed the default password for the Pi is `raspberrypi`.
 
